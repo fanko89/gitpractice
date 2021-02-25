@@ -1,4 +1,49 @@
+:root{
+    box-sizing: border-box;
+    --main-bg-color:cyan;
+}
+body{
+    background-color: var(--main-bg-color);
+}
+
 h1 {
     color: yellow;
-    background-color: blue;
+    
+
+}
+
+.container{
+    display: flex;
+    overflow: hidden;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    margin: 0 2%;
+
+}
+
+.item-center{
+    background-color: brown;
+    flex: 1;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+
+/* css animation (faster than javascript) */
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width:300%;
+
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
 }
