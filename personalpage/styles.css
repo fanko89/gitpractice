@@ -1,0 +1,136 @@
+header{
+    width: auto;
+    height:90px;
+    background-color:;
+    text: center;
+    margin-bottom:1.5em;
+  }
+  
+  body{
+    margin:20px;
+    background-color: #946f18;
+    font-family:sans-serif;
+    
+  }
+  
+  .learning_component_image{
+    height: 90px;
+    
+  }
+  
+  
+  
+  main{
+    margin:0 auto;
+    max-width: 70%;
+  }
+  
+  #bio{
+    display:flex;
+    width:auto;
+    height:180px;
+    width:100%;
+    margin-bottom:1.5em;
+  }
+  #bio > img{
+    height:199px;
+  }
+  #personal_info{
+    width:100%;
+    margin-left:1em;
+   
+  }
+  #name_date{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+  .nameform{
+    font-size:1.45em;
+    font-weight: bold;
+    color:white;
+  }
+  .timeform{
+    font-size:1.45em;
+    color:white;
+  }
+  h4{
+    margin: 4px 0 14px 0;
+  }
+  h2, 
+  p{
+    margin:0;
+  }
+  #list_why{
+    background-color: #555;
+    padding:21px;
+  }
+  ul{
+    margin: 0;
+    padding-left:15px;
+  }
+  #tech{
+    display:flex;
+    justify-content:space-between;
+    width:auto;
+    height:200px;
+  
+    
+    
+  }
+  figure{
+    
+    text-align: center;
+    margin: 5px 0;
+  }
+  figure > img{
+    display:flex;
+    height:150px;
+    width:150px;
+    text-align: center;
+   
+    
+    
+  }
+  figcaption{
+    position: relative;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, .8);
+    color:#ddd;
+    max-width:155px;
+    text-align: center; 
+  }
+  
+  #interest{
+    width:auto;
+    height:200px;
+    
+  }
+  
+  h2{
+    padding-bottom: 10px;
+    
+  }
+  
+  #box_excited{
+    background-color:#555;
+    color: #FCF;
+    padding: 5px 15px 20px 15px;
+    
+    margin: 0;
+  }
+  
+  #box_excited > p{
+    color:#FFF;
+  }
+  
+  .centered {
+    text-align:center;
+    img: center;  
+  }
+  
+  footer{
+      height:1.5rem;
+    color:#FFF;
+    padding-top:10px;
+  }
